@@ -1,0 +1,14 @@
+---
+title: "Working with pre-existing lists"
+author:
+- Torsti Schulz
+- Aapo Kahilainen
+vignette: >
+  %\VignetteIndexEntry{Working with pre-existing lists}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Complementing a pre-existing list
+
+# Comparison to the optimal alternative
