@@ -4,16 +4,17 @@ MAKEFLAGS += --no-builtin-rules
 
 VERSION := $(shell grep "^Version" silo/DESCRIPTION | cut -d " " -f 2)
 SILO := silo_${VERSION}.tar.gz
+USERNAME := $(shell git config get user.name)
 
 .PHONY: default clean install check test rcpp format
 
 default:
 
 clean:
-	git clean -nXd
+	git clean -fXd
 
 ${SILO}: rcpp
-	R CMD build --user="Torsti Schulz" silo
+	R CMD build --user="${USERNAME}" silo
 
 install: ${SILO}
 	R CMD INSTALL --use-vanilla $<
