@@ -22,7 +22,7 @@ install: ${SILO}
 check: ${SILO}
 	R CMD check --as-cran $<
 
-test:
+test: rcpp
 	R --vanilla -e "tinytest::build_install_test('silo')"
 
 rcpp:
