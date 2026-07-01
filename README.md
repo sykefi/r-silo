@@ -36,9 +36,12 @@ It has the following targets.
 - `install`: Install the package locally.
 - `rcpp`: Create the Rcpp interface files, run automatically by targets requiring it.
 - `test`: Run the `tinytest` test suite.
+- `data`: Recreate the test and demonstration data used by the package.
 
 To reattach the package in a running R-session after installing a new version, run
 
 ```R
 detach("package:silo", unload = TRUE); library("silo")
 ```
+
+The test data set is generated from the [Finnish Biodiversity Information Facility](https://laji.fi/en) species checklist and the [Red List of Finnish Species](https://punainenkirja.laji.fi/en).

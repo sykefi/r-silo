@@ -11,6 +11,8 @@ Authors@R: c(
   )
 Description: Selection of optimal species indicator lists using multiple criteria.
 License: MIT + file LICENSE
+URL: https://github.com/sykefi/r-silo
+BugReports: https://github.com/sykefi/r-silo/issues
 Depends:
     R (>= 4.2.0)
 Imports:
@@ -27,5 +29,7 @@ LinkingTo:
     Rcpp
 VignetteBuilder:
     knitr
-Copyright: Finnish Environment Institute
+LazyData:
+    true
+Copyright: file COPYRIGHTS
 Encoding: UTF-8

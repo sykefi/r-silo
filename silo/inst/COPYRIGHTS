@@ -1,0 +1,13 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files:
+ *
+Copyright: 2026 Finnish Environment Institute
+License: MIT
+
+Files:
+ data/finland_species.rda
+Copyright: 2026 Finnish Biodiversity Information Facility
+           2019 Finnish Environment Institute
+           2019 Ministry of the Environment (Finland)
+Licence: CC-BY-4.0
